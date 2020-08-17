@@ -16,7 +16,7 @@ Ever since I started using Anki to memorise things many years ago, I have always
 2. **Less is more.** When reviewing, fields such as example sentences and definitions are collapsed by default to reduce visual cluttering, while translations are hidden as a second-level hint. By doing so, you can focus on trying to recollect what you want to remember instead of getting distracted. To see the hidden fields, simply hover the mouse cursor over its title.
 3. **Flexible card types.** Two fields included in the template ("add reverse" and "add spell") controls how Anki generates additional cards from new notes. A reverse card simply asks you for the word given the image or the definition, whereas a spelling card asks you to type the word.
 4. **Speech synthesis.** Instead of spending time looking for the right recording, the template uses Anki's built-in `{{tts}}` field to generate audio.
-5. **It has to look nice :)**
+5. **It has to look nice :)** The style was inspired by [NSBum](https://github.com/NSBum)'s [Anki Solarized Light](https://github.com/NSBum/anki-themes) theme.
 
 ### Comprehension Cards
 
