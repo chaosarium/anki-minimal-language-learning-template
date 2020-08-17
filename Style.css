@@ -1,0 +1,174 @@
+/* Layout */
+
+.card {
+	font-family: "Gill Sans", Helvetica, Arial;
+	font-size: 1.4rem;
+	text-align: center;
+	color: #4B515D;
+	background-color: white;
+	height: 100%;
+	max-width: 760px;
+	margin-left: auto;
+	margin-right: auto;
+	align-self: center;
+}
+
+hr.hr-block {
+	border: 2px solid #7eb1fc; width:200px; margin-top: 20px; margin-bottom: 20px;
+	max-width: 200px
+}
+
+.section-title {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	font-family: "Futrura", "Gill Sans", Helvetica, Arial;
+	letter-spacing: 0.3rem;
+	margin-top: 12px;
+	margin-bottom: 12px;
+/*	max-width: 500px; */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.section-title::before,
+.section-title::after {
+	content: "";
+	flex: 1;
+	border-bottom: 1px solid #dfe8ec;
+}
+
+.section-title::before {
+	margin-right: 1em;
+}
+
+.section-title::after {
+	margin-left: 0.7em;
+}
+
+img {
+	min-width: 350px;
+	max-width 500px;
+}
+
+/* Play button */
+
+.replay-button {
+    margin: 0px;
+}
+.replay-button svg {
+	width: 16px;
+	height: 16px;
+}
+.replay-button svg circle {
+	fill: white;
+}
+.replay-button svg path {
+    stroke: white;
+    fill: #0d47a1;
+}
+
+/* Typography */
+
+.serif {
+	font-family: "Georgia", Times New Romen;
+}
+.sans {
+	font-family: "Futura", "Gill Sans", Helvetica, Arial;
+}
+.bold {
+	font-weight: bold;
+}
+.light {
+	font-weight: light;
+}
+.italic {
+	font-style: italic;
+}
+.title {
+	color: #4285F4;
+	font-size: 0.8rem;
+}
+b {
+	color: #0d47a1;
+}
+u {
+}
+i {
+}
+.bigbigbig {
+	font-size: 1.9rem
+}
+.bigbig {
+	font-size: 1.4rem
+}
+.big {
+	font-size: 1.2rem
+}
+.normal {
+	font-size 1rem
+}
+.small {
+	font-size: 0.96rem
+}
+.smallsmall {
+	font-size: 0.7rem
+}
+.smallsmallsmall {
+	font-size: 0.5rem
+}
+.primary, a {
+	color: #0d47a1
+}
+.light-primary {
+	color: #4285F4
+}
+.lightcolour {
+	color: #3E4551
+}
+.verylightcolour {
+	color: #90a4ae
+}
+
+.text {
+	max-width:700px;
+	margin-left: auto;
+	margin-right: auto;
+	align-self: center;
+}
+
+.add-top-margin {
+	margin-top: 5px
+}
+
+.black {
+	color: black
+}
+
+/* type */
+
+.typeGood {
+    background: #8af28a;
+}
+.typeBad {
+	background: #fca897
+}
+.typeMissed {
+	background: #d5d5d5
+}
+
+input {
+	font-family: "Georgia", Times New Romen !important;
+}
+
+input:focus, textarea:focus, select:focus{
+	outline: none;
+	text-align: center;
+	font-weight: bold;
+	color: #0d47a1;
+}
+
+#typeans {
+	font-size: 1.9rem;
+	margin-top: 10px;
+}

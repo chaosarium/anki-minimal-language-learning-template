@@ -1,0 +1,54 @@
+{{#add reverse? (type anything to add recollection card)}}
+
+<p style="text-align: right; font-size: 12px; margin-bottom: -20px; color: #bbb">recollection</p>
+
+
+<!--if image-->
+{{#image}}
+	<div style="height: 10px"></div>
+	{{image}}
+{{/image}}
+
+<div  class="">
+
+	{{#image}}
+		<div class="section-title bold small verylightcolour" onmouseover="showDefinition()">DEFINITION/TRANSLATION</div>
+	{{/image}}
+
+<!--if image-->
+{{#image}}
+	<div class="sans" id="definition" style="display: none">
+{{/image}}
+
+<!--if no image-->
+{{^image}}
+	<div class="sans" id="definition" style="display: block">
+{{/image}}
+
+		<div class="lightcolour text">{{definition}}</div>
+
+		<div class="italic text light-primary small add-top-margin">{{hint:word translation}}</div>
+
+	</div>
+</div>
+
+<div class="section-title bold small verylightcolour" onmouseover="showNotes()">EXTRA NOTES</div>
+<div class="sans" id="notes" style="display: none">	
+	<div class="normal text">{{edit:notes}}</div>
+
+</div>
+
+<script>
+  function showDefinition() {
+    document.getElementById("definition").style.display = "block";
+  }
+  function showExample() {
+    document.getElementById("example").style.display = "block";
+  }
+  function showNotes() {
+    document.getElementById("notes").style.display = "block";
+  }
+</script>
+
+
+{{/add reverse? (type anything to add recollection card)}}

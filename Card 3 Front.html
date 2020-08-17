@@ -1,0 +1,56 @@
+{{#add spell? (type anything to add spelling card)}}
+
+<p style="text-align: right; font-size: 12px; margin-bottom: -20px; color: #bbb">spelling</p>
+
+<!--if image-->
+{{#image}}
+	<div style="height: 10px"></div>
+	{{image}}
+{{/image}}
+
+<div  class="">
+
+	{{#image}}
+		<div class="section-title bold small verylightcolour" onmouseover="showDefinition()">DEFINITION/TRANSLATION</div>
+	{{/image}}
+
+<!--if image-->
+{{#image}}
+	<div class="sans" id="definition" style="display: none">
+{{/image}}
+
+<!--if no image-->
+{{^image}}
+	<div class="sans" id="definition" style="display: block">
+{{/image}}
+
+		<div class="lightcolour text">{{definition}}</div>
+
+		<div class="italic text light-primary small add-top-margin">{{hint:word translation}}</div>
+
+	</div>
+
+<div class="section-title bold small verylightcolour" onmouseover="showDefinition()">PRONUNCIATION</div>
+<span class="sans" style="margin-left: 7px">{{IPA}}</span>{{tts  fr_FR voices=Apple_Thomas speed=1.2:stem}}<br>
+
+<div class="section-title bold small verylightcolour" id=answer >SPELL</div>
+<span class="serif bold bigbigbig black">{{type:stem}}</span>
+
+
+
+
+
+<script>
+  function showDefinition() {
+    document.getElementById("definition").style.display = "block";
+  }
+  function showExample() {
+    document.getElementById("example").style.display = "block";
+  }
+  function showNotes() {
+    document.getElementById("notes").style.display = "block";
+  }
+</script>
+
+
+{{/add spell? (type anything to add spelling card)}}

@@ -1,0 +1,26 @@
+{{FrontSide}}
+
+<script>
+  showExample()
+</script>
+
+{{#image}}
+<div class="section-title bold small verylightcolour" id=answer>IMAGE</div>
+	{{image}}
+{{/image}}
+
+
+<div  class="">
+	<div class="section-title bold small verylightcolour" onmouseover="showDefinition()">DEFINITION</div>
+
+	<div class="sans" id="definition" style="display: none">
+
+		<div class="lightcolour text">{{definition}}</div>
+
+		<div class="italic text light-primary small add-top-margin">{{hint:word translation}}</div>
+
+	</div>
+</div>
+
+<div class="section-title bold small verylightcolour">EXTRA NOTES</div>
+	<div class="normal text">{{edit:notes}}</div>
