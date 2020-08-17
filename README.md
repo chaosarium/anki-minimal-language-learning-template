@@ -6,6 +6,8 @@ A custom language learning template designed for Anki
 
 ## Preview
 
+(scroll down to preview dynamic content)
+
 ![https://github.com/leonluleonlu/anki-minimal-language-learning-template/blob/master/media/Comprehension.png](media/Comprehension.png)
 
 ## Design principles
