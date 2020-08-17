@@ -2,6 +2,8 @@
 
 A custom language learning template designed for Anki
 
+> ***Note: this template is only tested on MacOS currently. More works are probably needed to make it compatable with other platforms***
+
 ## Preview
 
 ![https://github.com/leonluleonlu/anki-minimal-language-learning-template/blob/master/media/Comprehension.png](media/Comprehension.png)
